@@ -1,0 +1,136 @@
+[33mcommit bfbc9cc70c2ca99e06e721b366099e3e50379f04[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mIGI_LR1[m[33m)[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:50:50 2026 +0300
+
+    Rename two files for task4e
+
+[1mdiff --git a/IGI/LR1/1.txt b/IGI/LR1/111.txt[m
+[1msimilarity index 100%[m
+[1mrename from IGI/LR1/1.txt[m
+[1mrename to IGI/LR1/111.txt[m
+[1mdiff --git a/IGI/LR1/2.txt b/IGI/LR1/222.txt[m
+[1msimilarity index 100%[m
+[1mrename from IGI/LR1/2.txt[m
+[1mrename to IGI/LR1/222.txt[m
+
+[33mcommit f764318a0b6989d1455e50ad22fb09ec6c5cd6a2[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:43:22 2026 +0300
+
+    Add two.txt files for task 4. a-c
+
+[1mdiff --git a/IGI/LR1/1.txt b/IGI/LR1/1.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8f6c1e5[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/1.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m2[m[41m [m
+[1mdiff --git a/IGI/LR1/2.txt b/IGI/LR1/2.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..37bcc8b[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/2.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m1[m[41m [m
+
+[33mcommit 4fc0ba604c0706fc50a0137b4973ea3793abc639[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:40:59 2026 +0300
+
+    Add cloned project
+
+[1mdiff --git a/IGI/LR1/bar/baz/foo/test.txt b/IGI/LR1/bar/baz/foo/test.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e2111a9[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/bar/baz/foo/test.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m777[m[41m [m
+[1mdiff --git a/IGI/LR1/bar/baz/readme.txt b/IGI/LR1/bar/baz/readme.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b1726a5[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/bar/baz/readme.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m544[m[41m [m
+[1mdiff --git a/IGI/LR1/geometric_lib/circle.py b/IGI/LR1/geometric_lib/circle.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c3eb864[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/geometric_lib/circle.py[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32mimport math[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef area(r):[m
+[32m+[m[32m    return math.pi * r * r[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef perimeter(r):[m
+[32m+[m[32m    return 2 * math.pi * r[m
+[32m+[m
+[1mdiff --git a/IGI/LR1/geometric_lib/docs/README.md b/IGI/LR1/geometric_lib/docs/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..63f8727[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/geometric_lib/docs/README.md[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m# Math formulas[m
+[32m+[m[32m## Area[m
+[32m+[m[32m- Circle: S = πR²[m
+[32m+[m[32m- Rectangle: S = ab[m
+[32m+[m[32m- Square: S = a²[m
+[32m+[m
+[32m+[m[32m## Perimeter[m
+[32m+[m[32m- Circle: P = 2πR[m
+[32m+[m[32m- Rectangle: P = 2a + 2b[m
+[32m+[m[32m- Square: P = 4a[m
+\ No newline at end of file[m
+[1mdiff --git a/IGI/LR1/geometric_lib/square.py b/IGI/LR1/geometric_lib/square.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0f98724[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/geometric_lib/square.py[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m
+[32m+[m[32mdef area(a):[m
+[32m+[m[32m    return a * a[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef perimeter(a):[m
+[32m+[m[32m    return 4 * a[m
+
+[33mcommit 2aa0036229d99409ca0708ec7315de5ad7ea6117[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:10:13 2026 +0300
+
+    Add IGI\LR1 directory
+
+[1mdiff --git a/IGI/LR1/.gitkeep b/IGI/LR1/.gitkeep[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ccb81bc[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/LR1/.gitkeep[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.[m[41m [m
+
+[33mcommit 594bfe52c8db2d62a51c3fa8b73ea09d57dd3b5b[m[33m ([m[1;32mIGI[m[33m)[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:04:24 2026 +0300
+
+    Add IGI main directory
+
+[1mdiff --git a/IGI/.gitkeep b/IGI/.gitkeep[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ccb81bc[m
+[1m--- /dev/null[m
+[1m+++ b/IGI/.gitkeep[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.[m[41m [m
+
+[33mcommit a611a9ad3912adb2dc991967e7c53392fcddf433[m[33m ([m[1;32mmain[m[33m)[m
+Author: spidermn2099 <ganievabubakr.64@gmail.com>
+Date:   Mon Mar 16 07:01:46 2026 +0300
+
+    Initialize main branch
